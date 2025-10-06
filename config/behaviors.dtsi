@@ -1,0 +1,24 @@
+/ {
+    behaviors {
+        a_umlaut: a_umlaut {
+            compatible = "zmk,behavior-unicode";
+            label = "ä";
+            unicode = <0x00E4>;
+        };
+        o_umlaut: o_umlaut {
+            compatible = "zmk,behavior-unicode";
+            label = "ö";
+            unicode = <0x00F6>;
+        };
+        u_umlaut: u_umlaut {
+            compatible = "zmk,behavior-unicode";
+            label = "ü";
+            unicode = <0x00FC>;
+        };
+        szlig: szlig {
+            compatible = "zmk,behavior-unicode";
+            label = "ß";
+            unicode = <0x00DF>;
+        };
+    };
+};
