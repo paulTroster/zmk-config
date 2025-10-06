@@ -15,7 +15,7 @@
             label = "ü";
             unicode = <0x00FC>;
         };
-        szlig: szlig {
+        s_sharp: s_sharp {
             compatible = "zmk,behavior-unicode";
             label = "ß";
             unicode = <0x00DF>;
